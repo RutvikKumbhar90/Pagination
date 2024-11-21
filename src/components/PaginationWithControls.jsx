@@ -117,7 +117,7 @@ function Pagination() {
             onClick={goToNextRange}
             className={pageRange[1] < totalPages ? "" : "pagination__disabled"}
           >
-            Next
+            Next 
           </span>
         </div>
       )}
